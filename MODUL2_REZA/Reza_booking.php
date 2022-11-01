@@ -47,7 +47,7 @@
     <form action="Reza_mybooking.php" method="POST">
         <div class= "mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder=" ">
+            <input type="text" class="form-control" id="name" name="name" placeholder="name ">
         </div>
         <div class= "mb-3">
             <label for="date" class="form-label">Book Date</label>
@@ -59,7 +59,7 @@
         </div>
         <div class= "mb-3">
             <label for="duration" class="form-label">Duration (Days)</label>
-            <input type="number" class="form-control" id="duration" name="duration" placeholder=" ">
+            <input type="number" class="form-control" id="duration" name="duration" placeholder="duration">
         </div>
         <div class= "mb-3">
                 <label for="car" class="form-label">Car Type</label>
@@ -72,7 +72,7 @@
         </div>
         <div class= "mb-3">
             <label for="Number" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" id="Number" name="Number" placeholder=" ">
+            <input type="text" class="form-control" id="Number" name="Number" placeholder="Number">
         </div>
 
         <div class="mb-3">

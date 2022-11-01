@@ -31,7 +31,7 @@
     <?php
     $name = $_POST['name'];
     $date = $_POST['date'];
-    $time = $_POST['time'];
+    $time = $_POST['WAKTU'];
     $DURASI = $_POST['duration'];
     $car = $_POST['car'];
     $TELEPHONE = $_POST['Number'];
