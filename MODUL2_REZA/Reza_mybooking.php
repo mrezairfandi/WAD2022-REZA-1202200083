@@ -32,11 +32,11 @@
     $name = $_POST['name'];
     $date = $_POST['date'];
     $time = $_POST['time'];
-    $duration = $_POST['duration'];
+    $DURASI = $_POST['duration'];
     $car = $_POST['car'];
-    $phone = $_POST['Number'];
+    $TELEPHONE = $_POST['Number'];
     ?>
-
+    
 
     <div class="container">
         <h5 class="text-center">Thank You Reza_1202200083 for Reserving</h5>
