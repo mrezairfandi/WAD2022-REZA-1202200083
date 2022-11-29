@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
     $password = md5($_POST['password']);
  
-    $sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
+    $sql = "users WHERE email='$email' AND password='$password'";
     $result = mysqli_query($conn, $sql);
     if ($result->num_rows > 0) {
         $row = mysqli_fetch_assoc($result);
@@ -50,7 +50,7 @@ if (isset($_POST['submit'])) {
                     <b><h1><p class="fw-bold">Login</p></h1></b>
                 <br>
                 <div class="card-body">
-                    <form action="Reza_Home.php" method="POST">
+                    <form action="Reza_Home.php" >
                     <div class="mb-3" >
                         <label class="form-label">Email</label> 
                         <input type="text" class="form-control" name="email">
